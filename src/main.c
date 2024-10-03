@@ -44,7 +44,6 @@ int main()
             /*
              * This is the title screen. It is the default case, so to speak, hence the need for the loop.  
              * It scans for player input, then defines "title_screen_selection" accordingly.  
-             * Function in include/scenes.h.  
              */
             case 0:
                 title_screen();
@@ -58,7 +57,6 @@ int main()
                 break;
             /*
              * This allows the player to set a name for himself/herself.  
-             * Function in include/scenes.h.  
              * getchar() catches the \n character (presumably from case 0?) so it will  
              * actually get user input instead of the \n.  
              */
@@ -70,7 +68,6 @@ int main()
                 break;
             /*
              * This displays the credits screen.  
-             * Function in include/scenes.h.  
              */
             case 3:
                 credits_screen();
