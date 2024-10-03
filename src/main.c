@@ -37,6 +37,7 @@ int main()
 
     /*
      * This is the title screen. Scans for user selection.  
+     * The for loop iterates through the loop again to determine the selected case.  
      */
     for (int i=0; i<2; i++)
     {
