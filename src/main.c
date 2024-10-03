@@ -62,6 +62,11 @@ int main()
              */
             case 2:
                 set_name_screen();
+                /*
+                 * getchar() catches the \n character (presumably from case 0?) so it will  
+                 * actually get user input instead of the \n.  
+                 */
+                getchar();
                 fgets(s_player.char_name, sizeof(s_player.char_name), stdin);
                 printf("%s\n", s_player.char_name);
                 break;
