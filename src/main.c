@@ -50,6 +50,7 @@ int main()
              */
             case 0:
                 title_screen();
+                scanf("%d", &s_player_selection.title_screen_selection);
                 break;
             /*
              * This begins the actual game.  
