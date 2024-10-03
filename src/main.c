@@ -45,7 +45,6 @@ int main()
             /*
              * This is the title screen. It is the default case, so to speak, hence the need for the loop.  
              * It scans for player input, then defines "title_screen_selection" accordingly.  
-             * As said above, please find a cleaner way to accomplish this than using a temporary variable.  
              * Function in include/scenes.h  
              */
             case 0:
