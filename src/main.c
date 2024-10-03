@@ -32,7 +32,6 @@ int main()
     strcpy(s_enemy_3.char_name, "Texas Red");
 
     s_player_selection.title_screen_selection = 0;
-    int temp_int = 0; // Please for the love of G-d find a better way to do this later.  
     char temp_str[16];
 
     /*
@@ -51,8 +50,6 @@ int main()
              */
             case 0:
                 title_screen();
-                scanf("%d", &temp_int);
-                title_screen_selection(&s_player_selection.title_screen_selection, temp_int);
                 break;
             /*
              * This begins the actual game.  
