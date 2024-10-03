@@ -23,13 +23,13 @@ int main()
     /*
      * Sets the enemy names.  
      */
-    struct character s_enemy1;
+    struct character s_enemy_1;
     strcpy(s_enemy1.char_name, "Michael \"Wild Hog\" William");
 
-    struct character s_enemy2;
+    struct character s_enemy_2;
     strcpy(s_enemy2.char_name, "Leslie \"Sureshot\" Higgins");
     
-    struct character s_enemy3;
+    struct character s_enemy_3;
     strcpy(s_enemy3.char_name, "Texas Red");
 
     s_player_selection.title_screen_selection = 0;
