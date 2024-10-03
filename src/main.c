@@ -62,6 +62,7 @@ int main()
              */
             case 2:
                 set_name_screen();
+                fgets(s_player.char_name, sizeof(s_player.char_name), stdin);
                 printf("%s\n", s_player.char_name);
                 break;
             /*
