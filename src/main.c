@@ -32,7 +32,6 @@ int main()
     strcpy(s_enemy_3.char_name, "Texas Red");
 
     s_player_selection.title_screen_selection = 0;
-    char temp_str[16];
 
     /*
      * This is the title screen. Scans for user selection.  
@@ -59,13 +58,10 @@ int main()
                 break;
             /*
              * This allows the player to set a name for himself/herself.  
-             * It uses a similar method as case 0, so please change this too.  
              * Function in include/scenes.h  
              */
             case 2:
                 set_name_screen();
-                scanf("%s", temp_str);
-                set_user_name(&s_player.char_name, temp_str);
                 printf("%s\n", s_player.char_name);
                 break;
             /*
