@@ -61,7 +61,7 @@ int main()
                 combat_screen();
                 break;
             /*
-             * This allows the player to set a name for hisself/herself.  
+             * This allows the player to set a name for himself/herself.  
              * It uses a similar method as case 0, so please change this too.  
              * Function in include/scenes.h  
              */
