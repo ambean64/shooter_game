@@ -14,7 +14,7 @@
 #include "../include/scenes.h"
 
 
-int main()
+int main(int argc, char **argv)
 {    
     struct player_actions s_player_selection;
     struct character s_player;
