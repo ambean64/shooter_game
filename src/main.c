@@ -8,7 +8,6 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
 #include <stdbool.h>
 #include "../include/player_actions.h"
 #include "../include/structs.h"
