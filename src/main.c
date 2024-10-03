@@ -24,13 +24,13 @@ int main()
      * Sets the enemy names.  
      */
     struct character s_enemy_1;
-    strcpy(s_enemy1.char_name, "Michael \"Wild Hog\" William");
+    strcpy(s_enemy_1.char_name, "Michael \"Wild Hog\" William");
 
     struct character s_enemy_2;
-    strcpy(s_enemy2.char_name, "Leslie \"Sureshot\" Higgins");
+    strcpy(s_enemy_2.char_name, "Leslie \"Sureshot\" Higgins");
     
     struct character s_enemy_3;
-    strcpy(s_enemy3.char_name, "Texas Red");
+    strcpy(s_enemy_3.char_name, "Texas Red");
 
     s_player_selection.title_screen_selection = 0;
     int temp_int = 0; // Please for the love of G-d find a better way to do this later.  
@@ -58,7 +58,7 @@ int main()
              * This begins the actual game.  
              */
             case 1:
-                combat_screen();
+                combat_screen_enemy_1();
                 break;
             /*
              * This allows the player to set a name for himself/herself.  

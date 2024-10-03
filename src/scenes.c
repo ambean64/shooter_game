@@ -34,13 +34,13 @@ void credits_screen()
 {
     printf("Programmer: ambean64\n");
     sleep(2);
-    printf("Story: Shay Sullivan & ambean64\n");
+    printf("Story: ambean64\n");
     sleep(2);
     printf("Fastest gunslicker this side of the Mississippi: ambean64\n");
     sleep(2);
 }
 
-void combat_screen()
+void combat_screen_enemy_1()
 {
-
+    
 }
