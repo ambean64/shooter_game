@@ -1,6 +1,6 @@
 /* 
  * This is the main program, i.e. the structure of the game.  
- * Filename: main.c  
+ * Filename: main.c  a
  */
 
 /*
