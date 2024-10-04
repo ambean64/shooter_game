@@ -30,14 +30,14 @@ int main(int argc, char **argv)
     struct npc_stats s_enemy_3;
     strcpy(s_enemy_3.char_name, "Texas Red");
 
-    int title_screen_selection = 0;
-
     /*
      * This is the title screen. Scans for user selection.  
      * The for loop iterates through the loop again to determine the selected case.  
      */
     for (int i=0; i<2; i++)
     {
+        int title_screen_selection = 0;
+        
         switch (title_screen_selection)
         {
             /*
