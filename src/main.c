@@ -16,7 +16,6 @@
 
 int main(int argc, char **argv)
 {    
-    struct player_actions s_player_selection;
     struct player_stats s_player;
 
     /*
@@ -31,7 +30,7 @@ int main(int argc, char **argv)
     struct npc_stats s_enemy_3;
     strcpy(s_enemy_3.char_name, "Texas Red");
 
-    s_player_selection.title_screen_selection = 0;
+    int title_screen_selection = 0;
 
     /*
      * This is the title screen. Scans for user selection.  
@@ -39,7 +38,7 @@ int main(int argc, char **argv)
      */
     for (int i=0; i<2; i++)
     {
-        switch (s_player_selection.title_screen_selection)
+        switch (title_screen_selection)
         {
             /*
              * This is the title screen. It is the default case, so to speak, hence the need for the loop.  
@@ -47,7 +46,7 @@ int main(int argc, char **argv)
              */
             case 0:
                 title_screen();
-                scanf("%d", &s_player_selection.title_screen_selection);
+                scanf("%d", &title_screen_selection);
                 break;
             /*
              * This begins the actual game.  
