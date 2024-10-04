@@ -17,18 +17,18 @@
 int main(int argc, char **argv)
 {    
     struct player_actions s_player_selection;
-    struct character s_player;
+    struct player_stats s_player;
 
     /*
      * Sets the enemy names.  
      */
-    struct character s_enemy_1;
+    struct npc_stats s_enemy_1;
     strcpy(s_enemy_1.char_name, "Michael \"Wild Hog\" William");
 
-    struct character s_enemy_2;
+    struct npc_stats s_enemy_2;
     strcpy(s_enemy_2.char_name, "Leslie \"Sureshot\" Higgins");
     
-    struct character s_enemy_3;
+    struct npc_stats s_enemy_3;
     strcpy(s_enemy_3.char_name, "Texas Red");
 
     s_player_selection.title_screen_selection = 0;
