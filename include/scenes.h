@@ -11,6 +11,6 @@
 void title_screen();
 void set_name_screen();
 void credits_screen();
-void combat_screen_enemy_1();
+void combat_screen();
 
 #endif

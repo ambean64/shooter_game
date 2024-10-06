@@ -40,7 +40,7 @@ void credits_screen()
     sleep(2);
 }
 
-void combat_screen_enemy_1()
+void combat_screen()
 {
     
 }

@@ -53,7 +53,7 @@ int main(int argc, char **argv)
              * This begins the actual game.  
              */
             case 1:
-                combat_screen_enemy_1();
+                combat_screen();
                 break;
             /*
              * This allows the player to set a name for himself/herself.  
