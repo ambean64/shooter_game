@@ -5,3 +5,18 @@
 
 #include "../include/player_actions.h"
 #include "../include/structs.h"
+
+void attack()
+{
+
+}
+
+void duck()
+{
+
+}
+
+void drink()
+{
+    
+}

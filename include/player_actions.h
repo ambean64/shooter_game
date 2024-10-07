@@ -4,4 +4,8 @@
 #include <stdio.h>
 #include <string.h>
 
+void attack();
+void duck();
+void drink();
+
 #endif

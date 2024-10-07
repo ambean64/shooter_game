@@ -5,6 +5,7 @@
  */
 
 #include "../include/scenes.h"
+#include "../include/structs.h"
 
 /*
  * This is the title screen.  
@@ -44,3 +45,4 @@ void combat_screen()
 {
     
 }
+
