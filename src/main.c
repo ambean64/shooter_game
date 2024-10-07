@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
-#include "../include/player_actions.h"
+#include "../include/logic.h"
 #include "../include/structs.h"
 #include "../include/scenes.h"
 
